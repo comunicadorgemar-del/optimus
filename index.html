@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Sitio Web Moderno</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navegación -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#">MiSitio</a>
+            </div>
+            <div class="nav-menu">
+                <a href="#inicio" class="nav-link">Inicio</a>
+                <a href="#servicios" class="nav-link">Servicios</a>
+                <a href="#nosotros" class="nav-link">Nosotros</a>
+                <a href="#contacto" class="nav-link">Contacto</a>
+            </div>
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1>Bienvenido al Futuro</h1>
+            <p>Soluciones innovadoras para tu negocio digital</p>
+            <button class="cta-button">Comenzar Ahora</button>
+        </div>
+        <div class="hero-image">
+            <i class="fas fa-rocket"></i>
+        </div>
+    </section>
+
+    <!-- Servicios -->
+    <section id="servicios" class="services">
+        <h2>Nuestros Servicios</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <i class="fas fa-code"></i>
+                <h3>Desarrollo Web</h3>
+                <p>Creación de sitios web modernos y responsive</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-mobile-alt"></i>
+                <h3>Apps Móviles</h3>
+                <p>Desarrollo de aplicaciones nativas e híbridas</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-chart-line"></i>
+                <h3>Marketing Digital</h3>
+                <p>Estrategias para crecimiento online</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contact">
+        <h2>Contacto</h2>
+        <form class="contact-form">
+            <input type="text" placeholder="Nombre" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Mensaje" rows="5" required></textarea>
+            <button type="submit">Enviar Mensaje</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 Mi Sitio Web. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
